@@ -15,11 +15,16 @@ Para ejecutar este proyecto, necesitas tener instalado:
 1. Clonar el repositorio:
 
 ``` sh
-git clone 
-cd 
+git clone https://github.com/leiberbertel/jannar-motors-app-php.git
 ```
 
-2. Instalar dependecias:
+2. Ingresar a la carpeta del proyecto:
+
+```sh
+cd jannar-motors-app-php
+```
+
+3. Instalar dependecias:
 ``` sh
 compose install
 ```
@@ -51,7 +56,6 @@ $servername = $_ENV['SERVERNAME'];
 $username = $_ENV['USERNAME'];
 $password = $_ENV['PASSWORD'];
 $dbname = $_ENV['DBNAME'];
-
 ?>
 ```
 
