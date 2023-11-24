@@ -1,0 +1,8 @@
+{
+    "name": "leiberbertel/jannar_motors",
+    "description": "Es un sitio web sencillo de ejemplo para la gestión de autos",
+    "version": "1.0.1",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
