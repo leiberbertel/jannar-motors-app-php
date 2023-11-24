@@ -1,8 +1,8 @@
-## Jannar Motors
+## Jannar Motors 🚗
 
 Jannar Motors es una aplicación web para gestionar vehículos. Permite almacenar información sobre diferentes tipos de vehículos, incluyendo imágenes.
 
-## Requisitos Previos
+## Requisitos Previos 🚧
 Para ejecutar este proyecto, necesitas tener instalado:
 
 - PHP (versión 8.0 o superior)
@@ -10,7 +10,7 @@ Para ejecutar este proyecto, necesitas tener instalado:
 - Servidor web (como Apache o Nginx)
 - Composer
 
-## Configuración Inicial
+## Configuración Inicial 🛠 
 
 1. Clonar el repositorio:
 
@@ -30,7 +30,7 @@ compose install
 ```
 
 ## Configuración de la base de datos:
-Crea una base de datos llamada jannar_motors en tu sistema MySQL.
+Crea una base de datos llamada jannar_motors en tu sistema MySQL (configurada en jannar_motors.sql).
 Importa la estructura de la base de datos desde el archivo jannar_motors.sql adjunto en el paquete schema_db.
 
 ### Archivo `.env`:
@@ -59,6 +59,6 @@ $dbname = $_ENV['DBNAME'];
 ?>
 ```
 
-## Correr el proyecto:
+## Correr el proyecto 🚀:
 1. Iniciar el servidor de PHP
 2. Accede a la aplicación a través de tu navegador web en http://localhost/[nombre-proyecto].
