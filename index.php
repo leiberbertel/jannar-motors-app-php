@@ -29,7 +29,7 @@ if(!empty($_SESSION['active'])) {
                 $_SESSION['email'] = $data['correo']; 
                 $_SESSION['user'] = $data['usuario']; 
                 $_SESSION['rol'] = $data['rol'];
-                header('location:/jannar-motors-v2/home.html');
+                header('location:/jannar-motors-v2/src/app/home.php');
             } else {
                 $alert = "El usuario o contraseña es incorrecto";
                 session_destroy();
@@ -54,9 +54,9 @@ if(!empty($_SESSION['active'])) {
         <form action="" method="post">
             <h3>Iniciar sesión</h3>
             <img src="src/assets/img/logo.png" alt="img_login" width="180">
-            <input type="text" placeholder="Usuario" name="usuario">
-            <input type="password" placeholder="Contraseña" name="contrasena">
-            <div class="alert">
+            <input type="text" class="form-control" placeholder="Usuario" name="usuario">
+            <input type="password" class="form-control" placeholder="Contraseña" name="contrasena">
+            <div id="alert">
                 <p> <?php echo isset($alert)? $alert:''; ?> </p>
             </div>
             <input type="submit" value="Ingresar">
