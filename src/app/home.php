@@ -7,53 +7,14 @@
   <meta name="author" content="Leiber Bertel">
   <meta name="description" content="Sitio web para venta de vehículos">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="img/brand/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
 <body>
-  <header class="container-fluid">
-    <div class="p-3 row text-white header">
-      <div class="col">
-        <img src="img/brand/engine.png" width="60" class="rounded img-fluid mx-auto d-block"
-          alt="Logo Jannar's Motor's">
-      </div>
-      <div class="col text-center">
-        <h5 class="h5">Jannar's Motors</h5>
-        <p class="lead fs-6">Ventas de vehículos veloces y eficientes</p>
-      </div>
-      <div class="col text-contact">
-        <p>Leiber Bertel S.A.S</p>
-        <p>Leiber@ejemplo.com</p>
-        <p>3000234344</p>
-      </div>
-    </div>
-  </header>
-
-  <nav class="navbar navbar-expand-sm nav-header">
-    <div class="container-fluid">
-      <ul class="navbar-nav navigation">
-        <li class="nav-item bg-primary rounded">
-          <a class="nav-link active text-white" href="#">Inicio
-            <img src="img/tools/home.png" width="24" alt="">
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="registro.html">Registro
-            <img src="img/tools/registro.png" alt="">
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="app/mostrarVehiculos.php">Lista de vehículos
-            <img src="img/tools/lista-coches.png" alt="">
-          </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
+  <?php include "../includes/header.php"; ?>
   <section>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -66,7 +27,7 @@
       </div>
       <div class="carousel-inner ">
         <div class="carousel-item active">
-          <img src="img/brand/carrusel3.jpg" class="d-block w-100" id="carrusel-img"
+          <img src="../assets/img/brand/carrusel3.jpg" class="d-block w-100" id="carrusel-img"
             alt="imagen que transmite seguridad" />
           <div class="carousel-caption d-none d-md-block">
             <h5>Todos nuestro vehículos proveen seguridad</h5>
@@ -74,14 +35,14 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/brand/carrusel1.jpg" class="d-block w-100" id="carrusel-img" alt="...">
+          <img src="../assets/img/brand/carrusel1.jpg" class="d-block w-100" id="carrusel-img" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Diseños atrativos y versátiles</h5>
             <p>Los mejores diseños del mercado.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/brand/carrusel2.jpg" class="d-block w-100" id="carrusel-img" alt="...">
+          <img src="../assets/img/brand/carrusel2.jpg" class="d-block w-100" id="carrusel-img" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Sedes en casi todos los puntos de la ciudad</h5>
             <p>Soporte técnico simúltaneo las 24 horas.</p>
@@ -103,7 +64,7 @@
 
   <section>
     <div class="px-4 py-5 my-5 text-center">
-      <img class="d-block mx-auto mb-4" src="img/brand/engine.png" alt width="72" height="57">
+      <img class="d-block mx-auto mb-4" src="../assets/img/brand/engine.png" alt width="72" height="57">
       <h1 class="display-5 fw-bold">Jannar's Motor's</h1>
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-3">
@@ -123,7 +84,7 @@
         </div>
         <div class="col-md-5">
           <img class=" bd-placeholder-img  bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-            src="img/brand/comercial1.jpg" alt="asistencia inmediata" width="600" height="600">
+            src="../assets/img/brand/comercial1.jpg" alt="asistencia inmediata" width="600" height="600">
         </div>
       </div>
       <hr class="featurette-divider">
@@ -133,7 +94,7 @@
           <p class="lead">Recogemos y entregamos tu vehículo Janar's Motor's donde nos indiques sin costo.</p>
         </div>
         <div class="col-md-5 order-md-1">
-          <img class="featurette-image img-fluid mx-auto" src="img/brand/comercial2.jpg" alt="entrega" width="500"
+          <img class="featurette-image img-fluid mx-auto" src="../assets/img/brand/comercial2.jpg" alt="entrega" width="500"
             height="300">
         </div>
       </div>
@@ -145,22 +106,14 @@
             superados y aprendizajes recibidos, es la que le da vida a cada cosa que hacemos en Jannar..</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" src="img/brand/comercial3.jpg" alt="personas" width="600"
+          <img class="featurette-image img-fluid mx-auto" src="../assets/img/brand/comercial3.jpg" alt="personas" width="600"
             height="600">
         </div>
       </div>
   </section>
 
   <section class="container">
-    <footer class="py-3 my-5">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Inicio</a></li>
-        <li class="nav-item"><a href="registro.html" class="nav-link px-2">Registro</a></li>
-        <li class="nav-item"><a href="app/mostrarVehiculos.php" class="nav-link px-2">Lista de vehículos</a></li>
-      </ul>
-      <p class="text-center">&copy; 2023 <a class="text-light" target="_blank"
-          href="https://leiberbertel.github.io">Leiber Bertel</a></p>
-    </footer>
+    <?php include "../includes/footer.php"; ?>
   </section>
 </body>
 
